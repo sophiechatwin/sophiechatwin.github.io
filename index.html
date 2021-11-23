@@ -1,1 +1,113 @@
-Hello World
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Character Creator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body class="center">
+	<div class="center">
+	
+
+		<div class="container center" id="loginBody">
+
+			<h1 class="center">Character Creator</h1>
+
+			<div class="center" id="newUserDiv">
+				<button id="newUserButton" class="center">New User</button>
+			</div>
+
+			<div class="center" id="loginButtonDiv">
+				<button id="loginButton" class="center">Login</button>
+			</div>
+
+		</div>
+
+		<div id="responseDiv">
+			<p id="responseContent" class="center"></p>
+			<button id="responseButton">Okay</button>
+		</div>
+
+		
+		<div id="createForm" class="center">
+			<h4>Name:</h4>
+			<input type="text" name="characterName" placeholder="Name" id="name" class="createInput">
+			<h4>Age:</h4>
+			<input type="number" name="characterAge" placeholder="Age" id="age" class="createInput">
+			<h4>Birthday:</h4>
+			<input type="text" name="characterBirthday" placeholder="Month Day" id="birthday" class="createInput">
+			<h4>Hair Color:</h4>
+			<input type="text" name="characterHair" placeholder="Hair Color" id="hairColor" class="createInput">
+			<h4>Eye Color:</h4>
+			<input type="text" name="characterEyes" placeholder="Eye Color" id="eyeColor" class="createInput">
+			<h4>Occupation:</h4>
+			<input type="text" name="characterOccupation" placeholder="Occupation" id="occupation" class="createInput">
+			<button id="cancelCreateButton">Cancel</button>
+			<button id="addButton" class="createInput">Create</button>
+		</div>
+
+
+		<div id="updateForm" class="center">
+			<h4>Name:</h4>
+			<input type="text" name="characterName" placeholder="Name" id="updateName" class="updateInput">
+			<h4>Age:</h4>
+			<input type="number" name="characterAge" placeholder="Age" id="updateAge" class="updateInput">
+			<h4>Birthday:</h4>
+			<input type="text" name="characterBirthday" placeholder="Month Day" id="updateBirthday" class="updateInput">
+			<h4>Hair Color:</h4>
+			<input type="text" name="characterHair" placeholder="Hair Color" id="updateHairColor" class="updateInput">
+			<h4>Eye Color:</h4>
+			<input type="text" name="characterEyes" placeholder="Eye Color" id="updateEyeColor" class="updateInput">
+			<h4>Occupation:</h4>
+			<input type="text" name="characterOccupation" placeholder="Occupation" id="updateOccupation" class="updateInput">
+			<button id="cancelUpdateButton">Cancel</button>
+			<button id="mainUpdateButton">Save</button>
+		</div>
+
+
+		<div id="loginForm" class="center">
+			<h4>Email:</h4>
+			<input type="text" name="email" id="loginEmail" class="loginInput">
+			<h4>Password:</h4>
+			<input type="password" name="password" id="loginPassword" class="loginInput">
+			<button id="confirmLoginButton">Login</button>
+		</div>
+
+
+		<div id="createUserForm" class="center">
+			<h4>First Name:</h4>
+			<input type="text" name="first" id="createFirst" class="createInput">
+			<h4>Last Name:</h4>
+			<input type="text" name="last" id="createLast" class="createInput">
+			<h4>Email:</h4>
+			<input type="text" name="email" id="createEmail" class="createInput">
+			<h4>Password:</h4>
+			<input type="password" name="password" id="createPassword" class="createInput">
+			<button id="createNewUserButton">Create New User</button>
+		</div>
+
+
+		<div id="mainBody" class="container center">
+
+			<h1 class="center">Character Creator</h1>
+
+			<div class="center" id="createButtonDiv">
+				<p class="center">Click the following button to create a new character.</p>
+				<button id="createNewCharacterButton" class="center">Create Character</button>
+			</div>
+
+			<div class="center">
+				<h2 class="center">Created Characters:</h2>
+				<ul id="characterList" class="center">
+					
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<script src="app.js"></script>
+</body>
+
+</html>

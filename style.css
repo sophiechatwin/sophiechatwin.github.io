@@ -1,0 +1,136 @@
+body {
+	width: 100%;
+	font-family: Bahnschrift Light;
+	height: 100%;
+	background-image: linear-gradient(#1f6f87, #bfe4f2, white);
+	background-repeat: no-repeat;
+	color: #1f6f87;
+}
+
+.container {
+	width: 75%;
+	background: #bfe4f2;
+	height: 100%;
+	border: 25px solid #bfe4f2;
+	border-radius: 5px;
+}
+
+#createButtonDiv, #loginButtonDiv, #newUserDiv {
+	width: 50%;
+}
+
+#loginButtonDiv {
+	margin-top: 10px;
+}
+
+.createInput, .updateInput, .loginInput {
+	display: block;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+#createForm, #updateForm, #loginForm, #createUserForm {
+	position: absolute;
+	display: none;
+	width: 50%;
+	padding: 5%;
+	background: #e0f8ff;
+	border:  5px solid #1f6f87;
+	border-radius: 10px;
+	top: 15%;
+	right: 20%;
+}
+
+#responseDiv {
+	position: absolute;
+	display: none;
+	width: 25%;
+	padding: 5%;
+	background: #e0f8ff;
+	border:  5px solid #1f6f87;
+	border-radius: 10px;
+	top: 15%;
+	right: 32%;
+}
+
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+li {
+	display: inline-block;
+	text-align: left;
+	margin-right: 20px;
+	list-style-type: none;
+	border: 3px solid #1f6f87;
+	border-radius: 5px;
+	padding: 5px;
+	background: #f2f7ff;
+	margin-bottom: 30px;
+}
+
+button {
+	display: block;
+	width: 100%;
+	font-family: Bahnschrift Light;
+	border-radius: 5px;
+}
+
+h1 {
+	font-size: 50px;
+	font-family: "Bahnschrift SemiBold";
+}
+
+h4 {
+	float: left;
+	margin-bottom: 5px;
+}
+
+#cancelUpdateButton, #cancelCreateButton {
+	background: #ffa59c;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+#mainUpdateButton, #addButton, #confirmLoginButton, #createNewUserButton {
+	background: #c8ff9e;
+}
+
+#confirmLoginButton, #createNewUserButton {
+	margin-top:  15px;
+}
+
+#createNewCharacterButton, #loginButton, #newUserButton {
+	background: #f2f7ff;
+	width: 50%;
+}
+
+#responseButton {
+	background: #f2f7ff;
+}
+
+p {
+	font-size: 20px;
+}
+
+#characterList {
+	padding-left: 0;
+}
+
+#mainBody {
+	display: none;
+}
+
+#loginBody {
+	display: block;
+	padding-bottom: 100px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#newUserButton {
+	margin-top: 80px;
+}
